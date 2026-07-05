@@ -1,0 +1,1 @@
+const d=document.getElementById('dlg');open.onclick=()=>d.showModal();let c=0;document.querySelector('.duck').onclick=()=>{if(++c==5){alert("QUACK! You found the Captain!");c=0;}};
